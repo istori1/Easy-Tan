@@ -1,4 +1,4 @@
-# Easy-Tan (Sunshine Quick Setup) for Linux  
+# Easy-Tan (Sunshine Quick Setup) for Linux
 
 Make sure you have Flatpak set up on your Linux distro: https://flatpak.org/setup/
 
