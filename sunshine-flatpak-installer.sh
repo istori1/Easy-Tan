@@ -4,9 +4,7 @@ echo Granting temporary emulated mouse access
 sudo chown $USER /dev/uinput
 echo Setting up permanent emulated mouse access for the user $USER
 sudo usermod -a -G input $USER
-echo 'KERNEL=="uinput", GROUP="input", MODE="0660", OPTIONS+="static_node=uinput"' > 85-sunshine-input.rules
-sudo cp 85-sunshine-input.rules /etc/udev/rules.d/85-sunshine-input.rules
-rm 85-sunshine-input.rules
+echo 'KERNEL=="uinput", GROUP="input", MODE="0660", OPTIONS+="static_node=uinput"' | sudo tee /etc/udev/rules.d/85-sunshine-input.rules
 wget https://github.com/LizardByte/Sunshine/releases/download/v0.14.1/sunshine.flatpak -O sunshine.flatpak
 sudo flatpak remote-add --system --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo flatpak install --system -y ./sunshine.flatpak
