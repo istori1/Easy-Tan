@@ -19,3 +19,5 @@ For X11 and NVFBC:
 For KMS:
 
 `sudo -i PULSE_SERVER=unix:\$(pactl info | awk '/Server String/{print$3}') flatpak run dev.lizardbyte.sunshine`
+
+https://docs.lizardbyte.dev/projects/sunshine/en/latest/about/usage.html#setup
