@@ -20,6 +20,8 @@ For KMS:
 
 `sudo -i PULSE_SERVER=unix:\$(pactl info | awk '/Server String/{print$3}') flatpak run dev.lizardbyte.sunshine`
 
+Sunshine Docs:
+
 https://docs.lizardbyte.dev/projects/sunshine/en/latest/index.html
 
 NVFBC needs patching on consumer Nvidia GPU's:
