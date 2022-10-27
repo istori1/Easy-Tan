@@ -22,6 +22,10 @@ For KMS capture (Wayland & X11):
 
 Configuration UI available at: https://localhost:47990
 
+Fix for file error on version 0.14.1:
+
+`mkdir ~/.config/sunshine`
+
 Sunshine Docs:
 
 https://docs.lizardbyte.dev/projects/sunshine/en/latest/index.html
