@@ -30,7 +30,7 @@ Fix for filesystem error on version 0.14.1:
 
 NVFBC needs patching on consumer Nvidia GPU's:
 
-https://github.com/flathub/com.obsproject.Studio.Plugin.NVFBC#1---patching-the-drivers<br><br>
+https://github.com/flathub/com.obsproject.Studio.Plugin.NVFBC#howto<br><br>
 
 Sunshine Docs:
 
