@@ -24,7 +24,9 @@ Configuration UI available at: https://localhost:47990<br><br>
 
 Fix for filesystem error on version 0.14.1:
 
-`mkdir ~/.config/sunshine`<br><br>
+`mkdir ~/.config/sunshine`
+
+`sudo mkdir /root/.config/sunshine`<br><br>
 
 NVFBC needs patching on consumer Nvidia GPU's:
 
