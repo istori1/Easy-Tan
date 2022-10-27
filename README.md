@@ -26,10 +26,16 @@ Fix for filesystem error on version 0.14.1:
 
 `mkdir ~/.config/sunshine`<br><br>
 
+NVFBC needs patching on consumer Nvidia GPU's:
+
+https://github.com/flathub/com.obsproject.Studio.Plugin.NVFBC#1---patching-the-drivers<br><br>
+
 Sunshine Docs:
 
 https://docs.lizardbyte.dev/projects/sunshine/en/latest/index.html
 
-NVFBC needs patching on consumer Nvidia GPU's:
+Sunshine GitHub:
 
-https://github.com/flathub/com.obsproject.Studio.Plugin.NVFBC#1---patching-the-drivers
+https://github.com/LizardByte/Sunshine
+
+
