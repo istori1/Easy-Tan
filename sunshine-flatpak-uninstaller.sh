@@ -6,4 +6,4 @@ sudo rm /etc/udev/rules.d/85-sunshine-input.rules
 echo Removing Sunshine Flatpak
 sudo flatpak uninstall dev.lizardbyte.sunshine -y
 echo Sunshine Flatpak has been removed
-echo 'To remove configuration files use mkdir ~/.config/sunshine'
+echo 'To remove configuration files use rm -r ~/.config/sunshine'
