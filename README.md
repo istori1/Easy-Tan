@@ -8,7 +8,7 @@ To **install** Sunshine, run the script:
 
 To **uninstall** Sunshine, run the script:
 
-`wget https://github.com/istori1/Easy-Tan/raw/main/sunshine-flatpak-uninstaller.sh -O sunshine-flatpak-uninstaller.sh && chmod u+x sunshine-flatpak-uninstaller.sh  && ./sunshine-flatpak-uninstaller.sh`
+`wget https://github.com/istori1/Easy-Tan/raw/main/sunshine-flatpak-uninstaller.sh -O sunshine-flatpak-uninstaller.sh && chmod u+x sunshine-flatpak-uninstaller.sh  && ./sunshine-flatpak-uninstaller.sh`<br><br>
 
 **Running**:
 
@@ -18,13 +18,13 @@ For X11 and NVFBC capture (X11 Only):
 
 For KMS capture (Wayland & X11):
 
-`sudo -i PULSE_SERVER=unix:$(pactl info | awk '/Server String/{print$3}') flatpak run dev.lizardbyte.sunshine`
+`sudo -i PULSE_SERVER=unix:$(pactl info | awk '/Server String/{print$3}') flatpak run dev.lizardbyte.sunshine`<br><br>
 
-Configuration UI available at: https://localhost:47990
+Configuration UI available at: https://localhost:47990<br><br>
 
-Fix for file error on version 0.14.1:
+Fix for filesystem error on version 0.14.1:
 
-`mkdir ~/.config/sunshine`
+`mkdir ~/.config/sunshine`<br><br>
 
 Sunshine Docs:
 
