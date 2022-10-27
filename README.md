@@ -12,11 +12,11 @@ To **uninstall** Sunshine, run the script:
 
 **Running**:
 
-For X11 and NVFBC (X11 Only):
+For X11 and NVFBC capture (X11 Only):
 
 `flatpak run dev.lizardbyte.sunshine`
 
-For KMS (Wayland & X11):
+For KMS capture (Wayland & X11):
 
 `sudo -i PULSE_SERVER=unix:\$(pactl info | awk '/Server String/{print$3}') flatpak run dev.lizardbyte.sunshine`
 
