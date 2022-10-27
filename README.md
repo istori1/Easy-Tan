@@ -18,7 +18,7 @@ For X11 and NVFBC capture (X11 Only):
 
 For KMS capture (Wayland & X11):
 
-`sudo -i PULSE_SERVER=unix:\$(pactl info | awk '/Server String/{print$3}') flatpak run dev.lizardbyte.sunshine`
+`sudo -i PULSE_SERVER=unix:$(pactl info | awk '/Server String/{print$3}') flatpak run dev.lizardbyte.sunshine`
 
 Configuration UI available at: https://localhost:47990
 
