@@ -22,15 +22,9 @@ For KMS capture (Wayland & X11):
 
 Configuration UI available at: https://localhost:47990<br><br>
 
-Fix for filesystem error on version 0.14.1:
-
-`mkdir ~/.config/sunshine`
-
-`sudo mkdir /root/.config/sunshine`<br><br>
-
 NVFBC needs patching on consumer Nvidia GPU's:
 
-https://github.com/flathub/com.obsproject.Studio.Plugin.NVFBC#howto<br><br>
+https://github.com/flathub/com.obsproject.Studio.Plugin.NVFBC#howto
 
 Sunshine Docs:
 
