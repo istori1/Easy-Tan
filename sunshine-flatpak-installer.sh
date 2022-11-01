@@ -10,6 +10,6 @@ sudo flatpak remote-add --system --if-not-exists flathub https://flathub.org/rep
 sudo flatpak install --system -y ./sunshine.flatpak
 rm sunshine.flatpak
 echo You may now run Sunshine with: flatpak run dev.lizardbyte.sunshine
-echo If you need better performance run with sudo: "sudo -i PULSE_SERVER=unix:\$(pactl info | awk '/Server String/{print$3}') flatpak run dev.lizardbyte.sunshine"
+echo If you need better performance run with sudo: "sudo -i PULSE_SERVER=unix:\$(pactl info | awk '/Server String/{print\$3}') flatpak run dev.lizardbyte.sunshine"
 echo WARNING Running multiple instances will cause issues with ports.
 echo Once running access the Web UI at https://localhost:47990
