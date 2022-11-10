@@ -1,4 +1,4 @@
-# Easy-Tan (Sunshine Quick Setup) for Linux
+# Easy Tan (Sunshine Quick Setup) for Linux
 
 Make sure you have Flatpak set up on your Linux distro: https://flatpak.org/setup/
 
@@ -17,6 +17,8 @@ For X11 and NVFBC capture (X11 Only):
 `flatpak run dev.lizardbyte.sunshine`
 
 For KMS capture (Wayland & X11):
+
+Create folder: `sudo mkdir -p /root/.config/sunshine`
 
 `sudo -i PULSE_SERVER=unix:$(pactl info | awk '/Server String/{print$3}') flatpak run dev.lizardbyte.sunshine`<br><br>
 
